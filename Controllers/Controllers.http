@@ -1,0 +1,5 @@
+@Controllers_HostAddress = http://localhost:5054
+
+GET {{Controllers_HostAddress}}/api/products/logging-test
+
+###
