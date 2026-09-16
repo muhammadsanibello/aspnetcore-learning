@@ -1,0 +1,10 @@
+@ProductCrudApi_HostAddress = http://localhost:5269
+
+PUT {{ProductCrudApi_HostAddress}}/api/products/e24ea729-201e-4c0c-96c8-6f5fe6642586
+Content-Type: application/json
+{
+    "name": "Phone",
+    "price": 30000,
+    "quantity": 10
+}
+###
