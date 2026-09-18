@@ -1,0 +1,11 @@
+@StudentRecordsApi_HostAddress = http://localhost:5233
+
+DELETE {{StudentRecordsApi_HostAddress}}/api/students/4
+# Content-Type: application/json
+# {
+#     "name": "Umar",
+#     "age": 30,
+#     "department": "BioChemistry"
+# }
+
+###
