@@ -1,0 +1,11 @@
+@TaskManagerApi_HostAddress = http://localhost:5030
+
+POST {{TaskManagerApi_HostAddress}}/api/users/
+Content-Type: application/json
+
+{
+    "name": "Musa Salihu Alhassan",
+    "email": "salihumusa20@gmail.com"
+}
+
+###
